@@ -1,20 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
-    <id>Xamarin.Bindings.LUNSegmentedControl</id>
+    <id>UICircularProgressRing</id>
     <version>1.0.0</version>
-    <title>Xamarin.Bindings.LUNSegmentedControl</title>
+    <title>UICircularProgressRing</title>
     <authors>Everwealth</authors>
     <owners>Everwealth</owners>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <projectUrl>https://github.com/Everwealth/LUNSegmentedControl</projectUrl>
-    <description>LUNSegmentedControl bindings for Xamarin.iOS</description>
-    <summary>LUNSegmentedControl for Xamarin.iOS</summary>
+    <projectUrl>https://github.com/Everwealth/UICircularProgressRing</projectUrl>
+    <description>UICircularProgressRing bindings for Xamarin.iOS</description>
+    <summary>UICircularProgressRing for Xamarin.iOS</summary>
     <copyright></copyright>
     <language></language>
     <tags>intercom xamarin ios xamarin.ios</tags>
   </metadata>
   <files>
-    <file src="bin\release\LUNSegmentedControl.dll" target="lib\xamarinios10" />
+    <file src="bin\release\UICircularProgressRing.dll" target="lib\xamarinios10" />
   </files>
 </package>

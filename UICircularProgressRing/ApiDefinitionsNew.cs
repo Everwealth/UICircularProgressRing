@@ -238,180 +238,180 @@ namespace UICircularProgressRing
         void WillDisplayLabelFor(UICircularProgressRing ring, UILabel label);
     }
 
-    //// @interface UICircularProgressRingLayer : CAShapeLayer
-    //[BaseType(typeof(CAShapeLayer), Name = "_TtC22UICircularProgressRing27UICircularProgressRingLayer")]
-    //interface UICircularProgressRingLayer
-    //{
-    //    // @property (nonatomic) BOOL fullCircle;
-    //    [Export("fullCircle")]
-    //    bool FullCircle { get; set; }
+    // @interface UICircularProgressRingLayer : CAShapeLayer
+    [BaseType(typeof(CAShapeLayer), Name = "_TtC22UICircularProgressRing27UICircularProgressRingLayer")]
+    interface UICircularProgressRingLayer
+    {
+        // @property (nonatomic) BOOL fullCircle;
+        [Export("fullCircle")]
+        bool FullCircle { get; set; }
 
-    //    // @property (nonatomic) CGFloat value;
-    //    [Export("value")]
-    //    nfloat Value { get; set; }
+        // @property (nonatomic) CGFloat value;
+        [Export("value")]
+        nfloat Value { get; set; }
 
-    //    // @property (nonatomic) CGFloat minValue;
-    //    [Export("minValue")]
-    //    nfloat MinValue { get; set; }
+        // @property (nonatomic) CGFloat minValue;
+        [Export("minValue")]
+        nfloat MinValue { get; set; }
 
-    //    // @property (nonatomic) CGFloat maxValue;
-    //    [Export("maxValue")]
-    //    nfloat MaxValue { get; set; }
+        // @property (nonatomic) CGFloat maxValue;
+        [Export("maxValue")]
+        nfloat MaxValue { get; set; }
 
-    //    // @property (nonatomic) enum UICircularProgressRingStyle ringStyle;
-    //    [Export("ringStyle", ArgumentSemantic.Assign)]
-    //    UICircularProgressRingStyle RingStyle { get; set; }
+        // @property (nonatomic) enum UICircularProgressRingStyle ringStyle;
+        [Export("ringStyle", ArgumentSemantic.Assign)]
+        UICircularProgressRingStyle RingStyle { get; set; }
 
-    //    // @property (nonatomic) BOOL showsValueKnob;
-    //    [Export("showsValueKnob")]
-    //    bool ShowsValueKnob { get; set; }
+        // @property (nonatomic) BOOL showsValueKnob;
+        [Export("showsValueKnob")]
+        bool ShowsValueKnob { get; set; }
 
-    //    // @property (nonatomic) CGFloat valueKnobSize;
-    //    [Export("valueKnobSize")]
-    //    nfloat ValueKnobSize { get; set; }
+        // @property (nonatomic) CGFloat valueKnobSize;
+        [Export("valueKnobSize")]
+        nfloat ValueKnobSize { get; set; }
 
-    //    // @property (nonatomic, strong) UIColor * _Nonnull valueKnobColor;
-    //    [Export("valueKnobColor", ArgumentSemantic.Strong)]
-    //    UIColor ValueKnobColor { get; set; }
+        // @property (nonatomic, strong) UIColor * _Nonnull valueKnobColor;
+        [Export("valueKnobColor", ArgumentSemantic.Strong)]
+        UIColor ValueKnobColor { get; set; }
 
-    //    // @property (nonatomic) CGFloat valueKnobShadowBlur;
-    //    [Export("valueKnobShadowBlur")]
-    //    nfloat ValueKnobShadowBlur { get; set; }
+        // @property (nonatomic) CGFloat valueKnobShadowBlur;
+        [Export("valueKnobShadowBlur")]
+        nfloat ValueKnobShadowBlur { get; set; }
 
-    //    // @property (nonatomic) CGSize valueKnobShadowOffset;
-    //    [Export("valueKnobShadowOffset", ArgumentSemantic.Assign)]
-    //    CGSize ValueKnobShadowOffset { get; set; }
+        // @property (nonatomic) CGSize valueKnobShadowOffset;
+        [Export("valueKnobShadowOffset", ArgumentSemantic.Assign)]
+        CGSize ValueKnobShadowOffset { get; set; }
 
-    //    // @property (nonatomic, strong) UIColor * _Nonnull valueKnobShadowColor;
-    //    [Export("valueKnobShadowColor", ArgumentSemantic.Strong)]
-    //    UIColor ValueKnobShadowColor { get; set; }
+        // @property (nonatomic, strong) UIColor * _Nonnull valueKnobShadowColor;
+        [Export("valueKnobShadowColor", ArgumentSemantic.Strong)]
+        UIColor ValueKnobShadowColor { get; set; }
 
-    //    // @property (copy, nonatomic) NSArray<NSNumber *> * _Nonnull patternForDashes;
-    //    [Export("patternForDashes", ArgumentSemantic.Copy)]
-    //    NSNumber[] PatternForDashes { get; set; }
+        // @property (copy, nonatomic) NSArray<NSNumber *> * _Nonnull patternForDashes;
+        [Export("patternForDashes", ArgumentSemantic.Copy)]
+        NSNumber[] PatternForDashes { get; set; }
 
-    //    // @property (copy, nonatomic) NSArray<UIColor *> * _Nonnull gradientColors;
-    //    [Export("gradientColors", ArgumentSemantic.Copy)]
-    //    UIColor[] GradientColors { get; set; }
+        // @property (copy, nonatomic) NSArray<UIColor *> * _Nonnull gradientColors;
+        [Export("gradientColors", ArgumentSemantic.Copy)]
+        UIColor[] GradientColors { get; set; }
 
-    //    // @property (copy, nonatomic) NSArray<NSNumber *> * _Nullable gradientColorLocations;
-    //    [NullAllowed, Export("gradientColorLocations", ArgumentSemantic.Copy)]
-    //    NSNumber[] GradientColorLocations { get; set; }
+        // @property (copy, nonatomic) NSArray<NSNumber *> * _Nullable gradientColorLocations;
+        [NullAllowed, Export("gradientColorLocations", ArgumentSemantic.Copy)]
+        NSNumber[] GradientColorLocations { get; set; }
 
-    //    // @property (nonatomic) enum UICircularProgressRingGradientPosition gradientStartPosition;
-    //    [Export("gradientStartPosition", ArgumentSemantic.Assign)]
-    //    UICircularProgressRingGradientPosition GradientStartPosition { get; set; }
+        // @property (nonatomic) enum UICircularProgressRingGradientPosition gradientStartPosition;
+        [Export("gradientStartPosition", ArgumentSemantic.Assign)]
+        UICircularProgressRingGradientPosition GradientStartPosition { get; set; }
 
-    //    // @property (nonatomic) enum UICircularProgressRingGradientPosition gradientEndPosition;
-    //    [Export("gradientEndPosition", ArgumentSemantic.Assign)]
-    //    UICircularProgressRingGradientPosition GradientEndPosition { get; set; }
+        // @property (nonatomic) enum UICircularProgressRingGradientPosition gradientEndPosition;
+        [Export("gradientEndPosition", ArgumentSemantic.Assign)]
+        UICircularProgressRingGradientPosition GradientEndPosition { get; set; }
 
-    //    // @property (nonatomic) CGFloat startAngle;
-    //    [Export("startAngle")]
-    //    nfloat StartAngle { get; set; }
+        // @property (nonatomic) CGFloat startAngle;
+        [Export("startAngle")]
+        nfloat StartAngle { get; set; }
 
-    //    // @property (nonatomic) CGFloat endAngle;
-    //    [Export("endAngle")]
-    //    nfloat EndAngle { get; set; }
+        // @property (nonatomic) CGFloat endAngle;
+        [Export("endAngle")]
+        nfloat EndAngle { get; set; }
 
-    //    // @property (nonatomic) CGFloat outerRingWidth;
-    //    [Export("outerRingWidth")]
-    //    nfloat OuterRingWidth { get; set; }
+        // @property (nonatomic) CGFloat outerRingWidth;
+        [Export("outerRingWidth")]
+        nfloat OuterRingWidth { get; set; }
 
-    //    // @property (nonatomic, strong) UIColor * _Nonnull outerRingColor;
-    //    [Export("outerRingColor", ArgumentSemantic.Strong)]
-    //    UIColor OuterRingColor { get; set; }
+        // @property (nonatomic, strong) UIColor * _Nonnull outerRingColor;
+        [Export("outerRingColor", ArgumentSemantic.Strong)]
+        UIColor OuterRingColor { get; set; }
 
-    //    // @property (nonatomic) CGLineCap outerCapStyle;
-    //    [Export("outerCapStyle", ArgumentSemantic.Assign)]
-    //    CGLineCap OuterCapStyle { get; set; }
+        // @property (nonatomic) CGLineCap outerCapStyle;
+        [Export("outerCapStyle", ArgumentSemantic.Assign)]
+        CGLineCap OuterCapStyle { get; set; }
 
-    //    // @property (nonatomic, strong) UIColor * _Nonnull outerBorderColor;
-    //    [Export("outerBorderColor", ArgumentSemantic.Strong)]
-    //    UIColor OuterBorderColor { get; set; }
+        // @property (nonatomic, strong) UIColor * _Nonnull outerBorderColor;
+        [Export("outerBorderColor", ArgumentSemantic.Strong)]
+        UIColor OuterBorderColor { get; set; }
 
-    //    // @property (nonatomic) CGFloat outerBorderWidth;
-    //    [Export("outerBorderWidth")]
-    //    nfloat OuterBorderWidth { get; set; }
+        // @property (nonatomic) CGFloat outerBorderWidth;
+        [Export("outerBorderWidth")]
+        nfloat OuterBorderWidth { get; set; }
 
-    //    // @property (nonatomic) CGFloat innerRingWidth;
-    //    [Export("innerRingWidth")]
-    //    nfloat InnerRingWidth { get; set; }
+        // @property (nonatomic) CGFloat innerRingWidth;
+        [Export("innerRingWidth")]
+        nfloat InnerRingWidth { get; set; }
 
-    //    // @property (nonatomic, strong) UIColor * _Nonnull innerRingColor;
-    //    [Export("innerRingColor", ArgumentSemantic.Strong)]
-    //    UIColor InnerRingColor { get; set; }
+        // @property (nonatomic, strong) UIColor * _Nonnull innerRingColor;
+        [Export("innerRingColor", ArgumentSemantic.Strong)]
+        UIColor InnerRingColor { get; set; }
 
-    //    // @property (nonatomic) CGLineCap innerCapStyle;
-    //    [Export("innerCapStyle", ArgumentSemantic.Assign)]
-    //    CGLineCap InnerCapStyle { get; set; }
+        // @property (nonatomic) CGLineCap innerCapStyle;
+        [Export("innerCapStyle", ArgumentSemantic.Assign)]
+        CGLineCap InnerCapStyle { get; set; }
 
-    //    // @property (nonatomic) CGFloat innerRingSpacing;
-    //    [Export("innerRingSpacing")]
-    //    nfloat InnerRingSpacing { get; set; }
+        // @property (nonatomic) CGFloat innerRingSpacing;
+        [Export("innerRingSpacing")]
+        nfloat InnerRingSpacing { get; set; }
 
-    //    // @property (nonatomic) BOOL shouldShowValueText;
-    //    [Export("shouldShowValueText")]
-    //    bool ShouldShowValueText { get; set; }
+        // @property (nonatomic) BOOL shouldShowValueText;
+        [Export("shouldShowValueText")]
+        bool ShouldShowValueText { get; set; }
 
-    //    // @property (nonatomic, strong) UIColor * _Nonnull fontColor;
-    //    [Export("fontColor", ArgumentSemantic.Strong)]
-    //    UIColor FontColor { get; set; }
+        // @property (nonatomic, strong) UIColor * _Nonnull fontColor;
+        [Export("fontColor", ArgumentSemantic.Strong)]
+        UIColor FontColor { get; set; }
 
-    //    // @property (nonatomic, strong) UIFont * _Nonnull font;
-    //    [Export("font", ArgumentSemantic.Strong)]
-    //    UIFont Font { get; set; }
+        // @property (nonatomic, strong) UIFont * _Nonnull font;
+        [Export("font", ArgumentSemantic.Strong)]
+        UIFont Font { get; set; }
 
-    //    // @property (copy, nonatomic) NSString * _Nonnull valueIndicator;
-    //    [Export("valueIndicator")]
-    //    string ValueIndicator { get; set; }
+        // @property (copy, nonatomic) NSString * _Nonnull valueIndicator;
+        [Export("valueIndicator")]
+        string ValueIndicator { get; set; }
 
-    //    // @property (nonatomic) BOOL rightToLeft;
-    //    [Export("rightToLeft")]
-    //    bool RightToLeft { get; set; }
+        // @property (nonatomic) BOOL rightToLeft;
+        [Export("rightToLeft")]
+        bool RightToLeft { get; set; }
 
-    //    // @property (nonatomic) BOOL showFloatingPoint;
-    //    [Export("showFloatingPoint")]
-    //    bool ShowFloatingPoint { get; set; }
+        // @property (nonatomic) BOOL showFloatingPoint;
+        [Export("showFloatingPoint")]
+        bool ShowFloatingPoint { get; set; }
 
-    //    // @property (nonatomic) NSInteger decimalPlaces;
-    //    [Export("decimalPlaces")]
-    //    nint DecimalPlaces { get; set; }
+        // @property (nonatomic) NSInteger decimalPlaces;
+        [Export("decimalPlaces")]
+        nint DecimalPlaces { get; set; }
 
-    //    // @property (nonatomic) BOOL isClockwise;
-    //    [Export("isClockwise")]
-    //    bool IsClockwise { get; set; }
+        // @property (nonatomic) BOOL isClockwise;
+        [Export("isClockwise")]
+        bool IsClockwise { get; set; }
 
-    //    [Wrap("WeakValueDelegate")]
-    //    [NullAllowed]
-    //    UICircularProgressRing ValueDelegate { get; set; }
+        [Wrap("WeakValueDelegate")]
+        [NullAllowed]
+        UICircularProgressRing ValueDelegate { get; set; }
 
-    //    // @property (nonatomic, weak) UICircularProgressRing * _Nullable valueDelegate;
-    //    [NullAllowed, Export("valueDelegate", ArgumentSemantic.Weak)]
-    //    NSObject WeakValueDelegate { get; set; }
+        // @property (nonatomic, weak) UICircularProgressRing * _Nullable valueDelegate;
+        [NullAllowed, Export("valueDelegate", ArgumentSemantic.Weak)]
+        NSObject WeakValueDelegate { get; set; }
 
-    //    //// -(void)drawInContext:(CGContextRef _Nonnull)ctx;
-    //    //[Export("drawInContext:")]
-    //    //unsafe void DrawInContext(CGContextRef* ctx);
+        //// -(void)drawInContext:(CGContextRef _Nonnull)ctx;
+        //[Export("drawInContext:")]
+        //unsafe void DrawInContext(CGContextRef* ctx);
 
-    //    // +(BOOL)needsDisplayForKey:(NSString * _Nonnull)key __attribute__((warn_unused_result));
-    //    [Static]
-    //    [Export("needsDisplayForKey:")]
-    //    bool NeedsDisplayForKey(string key);
+        // +(BOOL)needsDisplayForKey:(NSString * _Nonnull)key __attribute__((warn_unused_result));
+        [Static]
+        [Export("needsDisplayForKey:")]
+        bool NeedsDisplayForKey(string key);
 
-    //    // -(id<CAAction> _Nullable)actionForKey:(NSString * _Nonnull)event __attribute__((warn_unused_result));
-    //    [Export("actionForKey:")]
-    //    [return: NullAllowed]
-    //    CAAction ActionForKey(string @event);
+        // -(id<CAAction> _Nullable)actionForKey:(NSString * _Nonnull)event __attribute__((warn_unused_result));
+        [Export("actionForKey:")]
+        [return: NullAllowed]
+        CAAction ActionForKey(string @event);
 
-    //    // -(instancetype _Nonnull)initWithLayer:(id _Nonnull)layer __attribute__((objc_designated_initializer));
-    //    [Export("initWithLayer:")]
-    //    [DesignatedInitializer]
-    //    IntPtr Constructor(NSObject layer);
+        // -(instancetype _Nonnull)initWithLayer:(id _Nonnull)layer __attribute__((objc_designated_initializer));
+        [Export("initWithLayer:")]
+        [DesignatedInitializer]
+        IntPtr Constructor(NSObject layer);
 
-    //    //// -(instancetype _Nullable)initWithCoder:(NSCoder * _Nonnull)coder __attribute__((objc_designated_initializer));
-    //    //[Export("initWithCoder:")]
-    //    //[DesignatedInitializer]
-    //    //IntPtr Constructor(NSCoder coder);
-    //}
+        //// -(instancetype _Nullable)initWithCoder:(NSCoder * _Nonnull)coder __attribute__((objc_designated_initializer));
+        //[Export("initWithCoder:")]
+        //[DesignatedInitializer]
+        //IntPtr Constructor(NSCoder coder);
+    }
 }

@@ -1,0 +1,11 @@
+framework module UICircularProgressRing {
+  umbrella header "UICircularProgressRing.h"
+
+  export *
+  module * { export * }
+}
+
+module UICircularProgressRing.Swift {
+    header "UICircularProgressRing-Swift.h"
+    requires objc
+}
